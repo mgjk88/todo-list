@@ -118,11 +118,13 @@ header *{
 }
 
 .list{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .task{
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 12px;
