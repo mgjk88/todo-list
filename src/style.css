@@ -79,6 +79,7 @@ header *{
     display: grid;
     grid-template-columns: 0px 1fr;
     background-color: var(--DOMCntr-bg-color, #222222);
+    overflow: hidden;
 }
 
 #taskCreator{
@@ -99,12 +100,12 @@ header *{
 
 .task select,
 #taskCreator select{
-    width: 40px;
+    width: 30px;
 }
 
 .task input,
 #taskCreator input{
-    width: 100px;
+    width: 80px;
 }
 
 #taskCreator form div{
@@ -118,13 +119,12 @@ header *{
 }
 
 .list{
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .task{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     padding: 12px;
